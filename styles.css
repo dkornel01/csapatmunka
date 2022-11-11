@@ -11,25 +11,30 @@ main {
   padding: 10px;
   max-width: 500px;
   margin: auto;
+  background-color: white;
 }
 ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   text-decoration: none;
+  display:grid;
+    grid-template-columns: auto auto;
 }
 li {
   float: left;
   list-style-type: none;
   text-decoration: none;
 }
-.box{
-    
+.galeria{
+    display:grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 5px;
 }
-.random{
 
+.kep{
+    width: 100%;
 }
-
 a {
   text-decoration: none;
   color: brown;
@@ -42,6 +47,7 @@ a {
   main {
     width: 100%;
     padding: 10px;
+    
   }
 }
 @media screen and (max-width: 200px) {
